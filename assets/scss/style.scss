@@ -1,0 +1,35 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  #myCarousel {
+    height: 80vh; /* Ajusta la altura al 80% de la altura de la pantalla */
+    max-height: 600px; /* También puedes establecer un máximo para no exceder cierta altura */
+  }
+  
+  #myCarousel .carousel-inner {
+    height: 100%;
+  }
+  #myCarousel .carousel-item {
+    height: 100%; /* Asegúrate de que el item del carrusel también tome la altura completa */
+  }
+  
+  #myCarousel .carousel-item img {
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* La imagen se ajustará al contenedor, llenándolo y recortando si es necesario */
+    object-position: center; /* Centra la imagen en el contenedor */
+  }
+  
+  
+  
